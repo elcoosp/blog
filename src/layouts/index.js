@@ -6,7 +6,8 @@ import styled, { injectGlobal, ThemeProvider } from 'styled-components'
 import theme from '../utils/theme'
 import Header from '../components/Header'
 
-injectGlobal` ${styledNormalize}
+injectGlobal`
+${styledNormalize}
 
 :root {
   scroll-behavior: smooth;

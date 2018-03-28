@@ -1,7 +1,9 @@
 import React from 'react'
 import Badge from '../../ui/Badge'
 import List from '../../ui/List'
-import { Container, Post, Title, Content } from '../../ui/Post'
+import { Container, Post, Content } from '../../ui/Post'
+import Title from '../../ui/Title'
+
 import TagsList from '../../components/TagsList'
 
 export default ({ data: { markdownRemark: { frontmatter, html } } }) => {

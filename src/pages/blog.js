@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import TagsList from '../components/TagsList'
-import { Container, Post, Title, Content, Card } from '../ui/Post'
-import List from '../ui/List'
+import { Container, Content, Card } from '../ui/Post'
+import Title from '../ui/Title'
 import Badge from '../ui/Badge'
+import List from '../ui/List'
 
 import styled from 'styled-components'
 
