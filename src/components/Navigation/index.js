@@ -9,11 +9,12 @@ const StyledLink = styled(Link)`
   flex: 1;
   color: white;
   padding: ${T('spacing.medium')} ${T('spacing.small')};
-  transition: all 0.3s ease-in-out;
+  ${T('transitionAll.normal')};
   border-radius: ${T('radius.small')};
 
   :hover {
-    transition: all 0.3s ease-in-out;
+    ${T('transitionAll.normal')};
+
     box-shadow: ${T('shadow.small')};
   }
 `

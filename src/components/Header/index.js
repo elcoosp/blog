@@ -6,11 +6,12 @@ import { T } from '../../utils/theme'
 import { rotate, radiusChange } from '../../utils/keyframes'
 
 const Header = styled.header`
+  align-self: stretch;
   background-image: ${T('gradient.pm')};
   height: 100px;
   display: flex;
   box-shadow: ${T('shadow.small')};
-
+  margin: 0px 0px ${T('spacing.large')} 0px;
   justify-content: center;
   align-items: center;
 
