@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import { T } from '../utils/theme'
+import React from 'react'
+import Link from 'gatsby-link'
 
 const Badge = styled.span`
   font-size: 0.8rem;
@@ -20,5 +22,7 @@ const Badge = styled.span`
     ${T('transitionAll.speed')};
   }
 `
-
+export const BadgeLink = Badge.withComponent(({ filled, linked, ...rest }) => (
+  <Link {...rest} />
+))
 export default Badge
