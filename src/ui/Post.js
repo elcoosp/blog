@@ -1,10 +1,7 @@
 import styled from 'styled-components'
 import { T } from '../utils/theme'
 import { fadeIn } from '../utils/keyframes'
-const Title = styled.h1`
-  text-align: center;
-  ${T('transitionAll.normal')};
-`
+
 const Container = styled.div`
   width: 100%;
 
@@ -46,7 +43,6 @@ const Card = styled.div`
 
 export default {
   Container,
-  Title,
   Content,
   Card,
 }
