@@ -11,13 +11,14 @@ const StyledLink = styled(Link)`
   padding: ${T('spacing.medium')} ${T('spacing.small')};
   ${T('transitionAll.normal')};
   border-radius: ${T('radius.small')};
-  border: 1px solid transparent;
-
+  border: 2px solid transparent;
   :hover {
     ${T('transitionAll.normal')};
     transform: translateX(2px) rotate(2deg) translateY(2px);
+    border-radius: ${T('radius.large')};
+
     box-shadow: ${T('shadow.small')};
-    border: 1px solid white;
+    border: 2px solid white;
   }
 `
 const NavContainer = styled.nav`
