@@ -6,6 +6,9 @@ fairyGateTheme.overrideThemeStyles = () => ({
     textShadow: 'none',
     color: 'black',
   },
+  pre: {
+    whiteSpace: 'pre-wrap',
+  },
 })
 const typography = new Typography(fairyGateTheme)
 
