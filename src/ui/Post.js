@@ -1,4 +1,7 @@
 import styled from 'styled-components'
+import React from 'react'
+import Link from 'gatsby-link'
+
 import { T } from '../utils/theme'
 import { fadeIn } from '../utils/keyframes'
 

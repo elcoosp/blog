@@ -1,37 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import TagsList from '../components/TagsList'
-import { Container, Content, Card } from '../ui/Post'
-import Title from '../ui/Title'
-import Badge from '../ui/Badge'
+import PostCard from '../components/PostCard'
 import List from '../ui/List'
-
-import styled from 'styled-components'
-
-const PostCard = ({
-  excerpt,
-  id,
-  timeToRead,
-  frontmatter: { date, title, path, tags },
-}) => {
-  return (
-    <Card>
-      <Title>
-        <Link to={path}>{title}</Link>
-      </Title>
-      <List>
-        <Badge>
-          <time>
-            {timeToRead} {timeToRead > 1 ? 'minutes' : 'minute'} reading
-          </time>
-        </Badge>
-        <Badge filled>{date}</Badge>
-      </List>
-      <Content>{excerpt}</Content>
-      <TagsList tags={tags} />
-    </Card>
-  )
-}
 
 const BlogPage = ({ data: { allMarkdownRemark: { edges } } }) => (
   <List>{edges.map(({ node }) => <PostCard {...node} key={node.id} />)}</List>
