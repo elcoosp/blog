@@ -30,7 +30,7 @@ const Card = styled.div`
   min-width: 300px;
   max-width: 400px;
   border: 1px solid ${T('palette.gray')};
-  box-shadow: 0px 2px ${T('palette.gray')};
+  box-shadow: 0px 1px ${T('palette.gray')};
   animation: 0.3s ${fadeIn};
 
   border-radius: ${T('radius.medium')};
@@ -40,7 +40,8 @@ const Card = styled.div`
 
   :hover {
     ${T('transitionAll.slow')};
-    box-shadow: ${T('shadow.small')};
+    border: 1px solid white;
+    box-shadow: ${T('shadow.medium')};
   }
 `
 

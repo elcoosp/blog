@@ -16,9 +16,9 @@ const radius = {
 }
 
 const shadow = {
-  small: '1px 1px  10px  rgba(213, 51, 105, .2)',
-  medium: '1px 1px  10px  rgba(56,53,53,0.25)',
-  large: '1px 1px  10px  rgba(56,53,53,0.30)',
+  small: '1px 1px  6px  rgba(213, 51, 105, .2)',
+  medium: '1px 1px  6px  rgba(56,53,53,0.25)',
+  large: '1px 1px  6px  rgba(56,53,53,0.30)',
 }
 
 const spacing = {
