@@ -31,6 +31,7 @@ const transitionAll = {
   normal: 'transition: all 0.3s ease-in-out;',
   speed: 'transition: all 0.1s ease-in-out;',
 }
+
 export const T = args => path(['theme', ...args.split('.')])
 
 export default {

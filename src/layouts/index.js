@@ -5,7 +5,8 @@ import styledNormalize from 'styled-normalize'
 import styled, { injectGlobal, ThemeProvider } from 'styled-components'
 import theme from '../utils/theme'
 import Header from '../components/Header'
-
+require('./prism-code-highlight.css')
+// Global css, normalize and code highlighting
 injectGlobal`
 ${styledNormalize}
 

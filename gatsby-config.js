@@ -3,7 +3,21 @@ module.exports = {
     title: 'Elcoosp blog',
   },
   plugins: [
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: 'language-js',
+              inlineCodeMarker: null,
+              aliases: {},
+            },
+          },
+        ],
+      },
+    },
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-remove-trailing-slashes`,

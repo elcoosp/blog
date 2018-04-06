@@ -15,6 +15,7 @@
     "gatsby-plugin-styled-components": "^2.0.11",
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-remark-images": "^1.5.60",
+    "gatsby-remark-prismjs": "^1.2.23",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.38",
     "gatsby-transformer-sharp": "^1.6.22",
